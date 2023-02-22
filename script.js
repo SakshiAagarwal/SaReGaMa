@@ -41,6 +41,7 @@ masterPlay.addEventListener('click', ()=>{
         masterPlay.classList.remove('fa-pause-circle');
         masterPlay.classList.add('fa-play-circle');
         gif.style.opacity = 0;
+        makeAllPlays();
     }
 })
 
@@ -73,8 +74,8 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
         audioElement.currentTime = 0;
         audioElement.play();
         gif.style.opacity = 1;
-        masterPlay.classList.add('fa-pause-circle');
         masterPlay.classList.remove('fa-play-circle');
+        masterPlay.classList.add('fa-pause-circle');
     })
 })
 
