@@ -64,7 +64,11 @@ nav ul li{
 }
 
 .icons{
-    margin-top: 14px;
+    margin-top: 10px;
+}
+
+.icons i{
+    cursor: pointer;
 }
 
 #myProgressBar{
@@ -82,7 +86,7 @@ nav ul li{
     color: black;
     margin: 12px 0;
     border-radius: 34px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -101,11 +105,10 @@ nav ul li{
 }
 
 .songInfo{
-    position: absolute;
-    left: 10vw;
+    margin-top: 5px;
 }
 
 .songInfo img{
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.4s ease-in;
 }
